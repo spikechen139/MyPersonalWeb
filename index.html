@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>陈亚鹏 | AI Developer Portfolio</title>
+    <meta
+      name="description"
+      content="陈亚鹏的个人网站，展示 AI 开发、Agent 架构、RAG 系统与工程项目经历。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <canvas id="signal-canvas" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span>CY</span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#profile">个人介绍</a>
+        <a href="#skills">技能</a>
+        <a href="#projects">作品</a>
+      </nav>
+      <a class="header-link" href="https://github.com/spikechen139" target="_blank" rel="noreferrer">GitHub</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">AI Developer · Agent Builder · RAG Practitioner</p>
+          <h1 id="hero-title">陈亚鹏</h1>
+          <p class="hero-summary">
+            我是一名 AI native 的新生代开发者，习惯以模型能力、工具调用、数据检索和产品工程共同思考问题。
+            关注大语言模型应用、智能体工作流、RAG 检索增强生成与可解释的 AI 产品落地。
+          </p>
+          <div class="hero-actions" aria-label="联系方式">
+            <a href="mailto:2105557275@qq.com">2105557275@qq.com</a>
+            <a href="tel:19884241842">19884241842</a>
+            <a href="https://github.com/spikechen139" target="_blank" rel="noreferrer">github.com/spikechen139</a>
+          </div>
+        </div>
+        <aside class="hero-panel portrait-panel" aria-label="个人照片与求职方向">
+          <img src="./profile-photo.jpg" alt="陈亚鹏个人照片" />
+          <div>
+            <span class="panel-label">目标方向</span>
+            <strong>AI 开发 / LLM 应用 / Agent 工程</strong>
+            <p>将模型能力、数据检索、工具链与前端体验组合成可运行、可解释、可迭代的 AI 产品。</p>
+          </div>
+        </aside>
+      </section>
+
+      <section id="profile" class="section two-column" aria-labelledby="profile-title">
+        <div>
+          <p class="section-kicker">Profile</p>
+          <h2 id="profile-title">个人介绍</h2>
+        </div>
+        <div class="profile-grid">
+          <article class="info-block">
+            <h3>个人信息</h3>
+            <dl>
+              <div>
+                <dt>姓名</dt>
+                <dd>陈亚鹏</dd>
+              </div>
+              <div>
+                <dt>邮箱</dt>
+                <dd><a href="mailto:2105557275@qq.com">2105557275@qq.com</a></dd>
+              </div>
+              <div>
+                <dt>电话</dt>
+                <dd><a href="tel:19884241842">19884241842</a></dd>
+              </div>
+              <div>
+                <dt>微信</dt>
+                <dd>C-Spike</dd>
+              </div>
+              <div>
+                <dt>语言</dt>
+                <dd>英语无障碍交流，粤语熟练</dd>
+              </div>
+            </dl>
+          </article>
+
+          <article class="info-block">
+            <h3>教育背景</h3>
+            <ol class="timeline">
+              <li>
+                <span>2025.09 - 2026.06</span>
+                <strong>香港浸会大学 · 理学院</strong>
+                <p>理学硕士，数据分析与人工智能</p>
+              </li>
+              <li>
+                <span>2021.09 - 2024.08</span>
+                <strong>约克大学 · 文科与专业研究学院</strong>
+                <p>信息技术学士，加拿大多伦多</p>
+              </li>
+            </ol>
+          </article>
+
+          <article class="info-block advantage-block">
+            <h3>核心优势</h3>
+            <p>
+              具备 IT、Data Analysis 与 AI 交叉学习经历：海外约克大学 IT 学士与香港浸会大学 DAAI 硕士背景，
+              形成了扎实的编程功底、数据工程能力和独立完成数据处理与分析的能力。
+            </p>
+            <p>
+              熟悉 Transformer、CNN 等主流 AI 模型架构与微调流程，具备高效的 AI 协同开发能力，
+              能熟练利用 Cursor、Codex 进行复杂系统原型开发与逆向重构。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="section-kicker">Capabilities</p>
+          <h2 id="skills-title">技能介绍</h2>
+        </div>
+        <div class="skill-grid">
+          <article>
+            <span>01</span>
+            <h3>大语言模型</h3>
+            <p>Transformer 架构、BERT/LLM 微调、模型评估、上下文窗口管理。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Agent 架构</h3>
+            <p>RAG、Function Calling、ReAct 推理、多步任务规划、Planner-Critic-Repair 流程。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>工程开发</h3>
+            <p>Python、FastAPI、Flask、PyTorch、TensorFlow、RESTful API 与异步调用。</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>数据与检索</h3>
+            <p>大规模数据清洗、Embedding 策略、Pinecone/Milvus/Chroma 等向量数据库原理。</p>
+          </article>
+          <article>
+            <span>05</span>
+            <h3>AI 开发流</h3>
+            <p>Linux 开发环境、Prompt Engineering、AI Agent 软件开发与 Vibe Coding 实践。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="section-kicker">Selected Work</p>
+          <h2 id="projects-title">作品展示</h2>
+        </div>
+        <div class="project-list">
+          <article class="project">
+            <div class="project-meta">
+              <span>2026.04 - 2026.06</span>
+              <a href="https://github.com/spikechen139/TravelMind_Agent" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+            <h3>TravelMind Agent 多智能体旅行规划系统</h3>
+            <p>
+              基于 FastAPI、Vue3、HelloAgents 与 MCP 构建个性化旅行规划系统，集成高德地图 POI、天气、
+              路线、酒店、预算与行程生成能力。
+            </p>
+            <ul>
+              <li>设计景点搜索、天气查询、路线优化、预算估算、规划生成、结果审查与自动修复等多智能体流程。</li>
+              <li>封装高德地图 MCP 工具链，并用 Pydantic 建立强类型行程数据模型。</li>
+              <li>实现地图可视化、预算明细、天气提醒、PDF/图片导出、历史保存与 Agent Trace 可视化。</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <div class="project-meta">
+              <span>2026.02 - 2026.04</span>
+              <a href="https://github.com/spikechen139/-chatbot" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+            <h3>基于 RAG 架构的 AI 职场助手 Telegram 机器人</h3>
+            <p>
+              使用 Telegram Bot API 与 Python AsyncIO 构建可切换求职推荐和技能咨询模式的智能 Agent。
+            </p>
+            <ul>
+              <li>基于 BAAI/bge-small-zh-v1.5 与余弦相似度，对 Excel 职位数据进行语义检索。</li>
+              <li>集成 pypdf 完成简历解析，并通过 Prompt Engineering 转化为高质量 RAG 查询。</li>
+              <li>加入阈值回退、异常捕获、超时重试和时间戳日志，并部署到 GitHub Actions 与 AWS EC2。</li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <div class="project-meta">
+              <span>2025.09 - 2025.12</span>
+              <a href="https://github.com/spikechen139/SensitiveAnalysis" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+            <h3>基于深度学习的大规模评论多维情感分析</h3>
+            <p>
+              将传统正负情感分类升级为 10 级星级评分预测，提升消费者主观偏好分析的业务参考价值。
+            </p>
+            <ul>
+              <li>使用 Python 对 IMDB 评论进行预处理、特征工程和多模型架构对比。</li>
+              <li>通过微调 BERT 量化复杂语境下的情感倾向，最终达到 0.966 F1 分数。</li>
+              <li>进一步分析模型识别偏差，定位文本中的潜在语义冲突点。</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© 2026 陈亚鹏</span>
+      <span>AI Developer Portfolio</span>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
