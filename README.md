@@ -37,6 +37,23 @@ DEPLOYMENT_PLAN.md
 GitHub 免费仓库 -> Cloudflare Pages 免费部署 -> pages.dev 免费域名
 ```
 
+当前 GitHub 仓库：
+
+```text
+https://github.com/spikechen139/MyPersonalWeb.git
+```
+
+Cloudflare Pages 推荐设置：
+
+```text
+Project name: mypersonalweb
+Production branch: main
+Framework preset: None
+Build command: 留空
+Build output directory: /
+Root directory: /
+```
+
 详细步骤见：
 
 ```text
